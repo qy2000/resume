@@ -82,6 +82,13 @@ header .row .col-md-7 {
     padding-bottom: 35vmin;
 }
 
+@media (max-width: 1199px) {
+    .header .row .col-md-7  {
+        padding: 24vmin 1vmin;
+        padding-bottom: 50vmin;
+    }
+}
+
 header .row .col-md-5 {
     padding: 4.2vmin 1vmin;
 }
@@ -290,6 +297,8 @@ ul.timeline:after {
 
 li.timeline-item {
     margin: 20px 0;
+    align-items: center;
+    
 }
 
 /* Timeline item circle marker */
