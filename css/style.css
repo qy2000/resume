@@ -165,7 +165,7 @@ header .container .col-md-7 p {
     z-index: 2;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 480px) {
     .section-title h2 {
         font-size: 28px;
         margin-bottom: 15px;
@@ -218,6 +218,30 @@ header .container .col-md-7 p {
 .section-1 .row .col-md-8 .panel-fluid p {
     font-size: 0.9em;
     color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 480px) {
+    .section-1 .row .col-md-4 .pray img {
+        margin: 10%;
+    }
+    
+    .section-1 .row .col-md-8:last-child {
+        position: relative;
+    }
+    
+    .section-1 .row .col-md-8 .panel-fluid {
+        background: white;
+        border-radius: 3px;
+        text-align: left;
+        padding-right: 7vmin;
+        padding-left: 10vmin;
+        padding-top: 8vmin;
+        padding-bottom: 15vmin;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        font-family: var(--Rubik);
+        z-index: 1;
+        margin: 5%;
+    }
 }
 
 /********** section 2 **************/
