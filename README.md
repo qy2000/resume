@@ -1,1 +1,2 @@
-# qy2000.github.io resume website
+# resume website
+# link: https://qy2000.github.io/resume/
