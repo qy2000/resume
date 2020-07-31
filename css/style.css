@@ -21,6 +21,7 @@ body {
     --Rubik: "Rubik", cursive;
     --Patua: "Patua One", cursive;
     --Lobster: "lobster", cursive;
+    --Acme: "Acme", cursive;
     --light-black: #2e2c2caf;
     --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
     --light-gray: rgba(255, 255, 255, 0.877);
@@ -140,6 +141,7 @@ header .container .col-md-7 p {
     text-align: center;
     padding: 30px 0;
     position: relative;
+    font-family: var(--Rubik);
 }
 
 .section-title h2 {
@@ -151,6 +153,7 @@ header .container .col-md-7 p {
     color: #3b434a;
     position: relative;
     z-index: 2;
+    font-family: var(--Rubik);
 }
 
 .section-title span {
@@ -164,12 +167,14 @@ header .container .col-md-7 p {
     font-size: 52px;
     text-transform: uppercase;
     line-height: 0;
+    font-family: var(--Rubik);
 }
 
 .section-title p {
     margin-bottom: 0;
     position: relative;
     z-index: 2;
+    font-family: var(--Rubik);
 }
 
 @media (max-width: 480px) {
@@ -298,7 +303,7 @@ ul.timeline:after {
 li.timeline-item {
     margin: 20px 0;
     align-items: center;
-    
+    font-family: "Rubik", sans-serif;
 }
 
 /* Timeline item circle marker */
@@ -369,6 +374,7 @@ li.timeline-item::before {
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    font-family: var(--Rubik);
 }
 
 .feature_item img {
@@ -396,6 +402,7 @@ li.timeline-item::before {
     background: #ff4e2f;
     color: #fff;
     margin-top: 15px;
+    font-family: var(--Rubik);
 }
 
 .feature_item:hover {
